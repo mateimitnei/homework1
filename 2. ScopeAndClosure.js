@@ -83,12 +83,12 @@ object.returnLanguage(); // 'this' refers to 'object', so "JavaScript"
 // • Assigning a value to the context ('this').
 
 // The Variable Object contains all variables, functions, and other declarations (constructs declared) defined in a specific execution context. When a function is called, the interpreter scans the code for declarations belonging to this function. All of this is placed in a single object called the Variable Object.
-"variableObject": {
+"variableObject"; {
     // contains function arguments, internal variables, and function declarations
 }
 
 // The Scope Chain is created after the Variable Object is created and contains it. In other words, it contains its Variable Object and the parent functions' Variable Objects.
-"scopeChain": {
+"scopeChain"; {
     // contains its own Variable Object and other Variable Objects from parent execution contexts
 }
 
